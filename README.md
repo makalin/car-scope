@@ -6,6 +6,12 @@ A modern, web-based oscilloscope application designed for automotive electrical 
 
 *CarScope Pro v2.1 - Professional Automotive Electrical Diagnostic Tool*
 
+## 🌐 Live Demo
+
+**[🚀 Try CarScope Live](https://makalin.github.io/car-scope/)**
+
+Experience the full application with all features including draggable windows, real-time oscilloscope visualization, and advanced diagnostic tools.
+
 ## Features
 
 ### 🚗 Automotive-Focused
@@ -91,6 +97,21 @@ npm install
 # Start development server
 npm run dev
 ```
+
+### Deployment
+
+The application is automatically deployed to GitHub Pages on every push to the main branch. You can also manually deploy:
+
+```bash
+npm run deploy
+```
+
+This will build the application and deploy it to the `gh-pages` branch, making it available at `https://makalin.github.io/car-scope/`.
+
+### Manual Deployment Steps
+1. Build the application: `npm run build`
+2. Deploy to GitHub Pages: `npm run deploy`
+3. The application will be available at the demo URL within a few minutes
 
 ### Usage
 1. **Power On**: Click the "POWER ON" button to start the application
